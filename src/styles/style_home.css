@@ -373,3 +373,237 @@ justify-content: center;
     font-family: 'Ubuntu', sans-serif;
     font-size: 18px;
 }
+
+@media screen and (max-width: 768px){
+    /* Ajustes gerais */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    overflow-y: hidden;
+    background: linear-gradient(135deg, #140624, #031883);
+  }
+  
+  html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background: linear-gradient(135deg, #140624, #031883);
+  }
+  
+  /* Navbar */
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .ul_navbar {
+    display: flex;
+    list-style: none;
+  }
+  
+  .list_navbar,
+  .links_navbar {
+    color: white;
+    padding: 10px;
+    transition: transform 0.5s ease;
+  }
+  
+  .list_navbar:hover,
+  .links_navbar:hover {
+    transform: scale(1.1);
+    color: #4c004c;
+  }
+  
+  /* Container de animações */
+  .container_animations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+  }
+  
+  .container_animation_welcome {
+    padding-top: 10%;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: 100%;
+  }
+  
+  .container_animation_welcome h1 {
+    font-size: 24px;
+  }
+  
+  .container_animations_animation {
+    flex: 1;
+    height: auto;
+  }
+  
+  /* Social Medias */
+  .icon_social_medias {
+    color: white;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+  }
+  
+  .social_medias {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  /* Container Principal */
+  .Home_container,
+  .resume,
+  .history_container,
+  .projects_page {
+    background-image: linear-gradient(to left bottom, #0066ff, #584fd5, #693aac, #692785, #601863);
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    position: absolute;
+    padding-bottom: 20%;
+  }
+
+  
+  
+  /* Ajustes para dispositivos com largura máxima de 768 pixels */
+  @media screen and (max-width: 768px) {
+    /* Navbar */
+    .ul_navbar {
+      display: flex;
+    }
+  
+    .list_navbar,
+    .links_navbar {
+      padding: 5px;
+      font-size: 15px;
+    }
+  
+    /* Container de animações */
+    .container_animations {
+      height: auto;
+    }
+  
+    .container_animation_welcome {
+      padding-top: 5%;
+    }
+  
+    .container_animation_welcome h1 {
+      font-size: 20px;
+    }
+  
+    .skills_text{
+        font-size: 12px;
+    }
+
+    .container_text_skills{
+        padding-bottom:10%;
+        padding-left: 2%;
+    }
+
+    .container_icons_skills_back_end{
+        display: flex;
+        flex-direction: column;
+    }
+    /* Social Medias */
+    .icon_social_medias {
+      width: 20px;
+      height: 20px;
+      padding: 5px;
+    }
+  
+    .card{
+        width: 10%;
+        height: 10%;
+        margin-bottom: 10%;
+
+    }
+
+    .project_grid{
+        padding-left: 30%;
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(1, minmax(180px, 1fr));
+        grid-gap: 10px;
+        margin-bottom: 120px;
+        justify-content: center;
+    }
+    /* Container Principal */
+    .Home_container,
+    .resume,
+    .history_container,
+    .projects_page {
+      height: auto;
+    }
+
+   
+  }
+  
+}
+
+
+@media screen and (max-width: 480px) {
+    /* Navbar */
+    .ul_navbar {
+        display: flex;
+      }
+    
+      .list_navbar,
+      .links_navbar {
+        padding: 5px;
+        font-size: 8px;
+      }
+    
+      /* Container de animações */
+      .container_animations {
+        height: auto;
+      }
+    
+      .container_animation_welcome {
+        padding-top: 5%;
+      }
+    
+      .container_animation_welcome h1 {
+        font-size: 15px;
+      }
+    
+      
+      .icon_social_medias {
+        width: 20px;
+        height: 20px;
+        padding: 5px;
+      }
+    
+      
+      .Home_container,
+      .resume,
+      .history_container,
+      .projects_page {
+        height: auto;
+        
+      }
+.card__title {
+        margin: 0;
+        font-size: 10px;
+        color: #333;
+        font-weight: 700;
+      }
+      
+      .card:hover svg {
+        scale: 0;
+      }
+      
+      .card__description {
+        margin: 10px 0 0;
+        font-size: 6px;
+        color: #000000;
+        line-height: 1.4;
+        text-decoration: none;
+      }
+     
+    }
+    
+
