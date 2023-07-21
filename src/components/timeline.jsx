@@ -1,5 +1,5 @@
 import React from "react";
-import { timelineData } from "../assets/timelineData";
+import { timelineData } from "../../public/assets/timelineData";
 import { 
     VerticalTimeline, 
     VerticalTimelineElement 

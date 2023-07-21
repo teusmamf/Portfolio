@@ -3,8 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHtml5, faCss3,faJs,faReact , faNodeJs,faPhp,faJava,faPython } from "@fortawesome/free-brands-svg-icons";
 import { useInView } from 'react-intersection-observer';
 import { motion } from "framer-motion";
-import { faFontAwesome } from "@fortawesome/free-brands-svg-icons";
-import logoSQl from "../assets/mysql.png"
+
 
 
 
@@ -24,14 +23,11 @@ export default function Skills(){
                         animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : -100 }}
                         transition={{ duration: 0.8 }}
 >
-                    <ul ref={ref} className="container_text_skills">
-                        <li className="skills">HTML</li>
-                        <li className="skills">CSS</li>
-                        <li className="skills">Javascript</li>
-                        <li className="skills">ReactJS</li>
-                        
-                    </ul>
 
+                    <p className="skills_text">
+                    I have experience with HTML , JS ans CSS these are technologies that I know since I started to learn technology<br></br>
+                    I'm also familiar with API consumption and sorting data in front-end, and after learn a big part from js I've done some projects in ReactJs
+                   </p>
                     </motion.div>
 
                     <motion.div className="icons_skills_container" ref={ref} 
@@ -55,13 +51,11 @@ export default function Skills(){
                         animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : -100 }}
                         transition={{ duration: 0.8 }}
 >
-                    <ul ref={ref} className="container_text_skills">
-                        <li className="skills">NodeJs</li>
-                        <li className="skills">PHP</li>
-                        <li className="skills">Java</li>
-                        <li className="skills">Mysql</li>
-                        <li className="skills">Python</li>
-                    </ul>
+                    <p className="skills_text">
+                    In back-end , I have experience with node.js from my work and php I have done projects in college and projects alone also <br></br>
+                    For java I've done some college projects and studied on my own <br></br>and in my beggining of my carreer I've done a tons of sql scripts to generate reports and fix our database structure in my work<br></br>
+                    for python, I started to let my work with sql automated and I gained I lot of experience with python
+                   </p>
 
                     </motion.div>
                 <motion.div
