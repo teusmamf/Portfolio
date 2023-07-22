@@ -18,7 +18,7 @@ const  ProjectsData = [
     id:2,
     name:"Restaurant",
     description:"I've done a php project in the back-end and react in front and for the database I used mysql\n there's just the link for repository because by the size of my application I cannot find any free hosting",
-    link:"https://github.com/teusmamf/Trabsitios3",
+    link:"https://clipchamp.com/watch/CHikfU4t8K7",
     photo:"project3.png"
 },
 {
