@@ -478,8 +478,9 @@ body {
   }
 
   .resume{
-    height: 110%;
+    height: 80%;
     background-image: none;
+
   }
 
   .icon_db{
@@ -605,7 +606,6 @@ body {
       }
     
       .Home_container,
-      .resume,
       .history_container,
       .projects_page {
         height: auto;
@@ -622,6 +622,11 @@ body {
         scale: 0;
       }
       
+      .resume{
+        height: 100%;
+        background-image: none;
+        overflow-y: hidden;
+      }
       .card__description {
         margin: 10px 0 0;
         font-size: 6px;
