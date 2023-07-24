@@ -619,7 +619,6 @@ body {
       
       .resume{
         height: auto;
-        background-image: none;
         overflow-y: hidden;
       }
       .card__description {
