@@ -623,7 +623,7 @@ body {
       }
       
       .resume{
-        height: 105%;
+        height: auto;
         background-image: none;
         overflow-y: hidden;
       }
