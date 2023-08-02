@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHtml5, faCss3,faJs,faReact , faNodeJs,faPhp,faJava,faPython } from "@fortawesome/free-brands-svg-icons";
 import { useInView } from 'react-intersection-observer';
 import { motion } from "framer-motion";
-
+const PDF_FILE_URL = "https://mateus-martins.netlify.app/softwaredev.pdf"
 
 
 
@@ -13,9 +13,32 @@ export default function Skills(){
         triggerOnce: true, // Para ativar a animação apenas uma vez quando a div se tornar visível
       });
 
+      const downloadFIleatURL = (url) => {
+        const aTag = document.createElement("a");
+        aTag.href = url;
+        aTag.setAttribute("download", 'Resume');
+        document.body.appendChild(aTag);
+        aTag.click();
+        aTag.remove();
+      }
+
     return (
         <div>
             <h1 className="resume_title">Front-end Skills</h1>
+            <button onClick={() => {
+                downloadFIleatURL(PDF_FILE_URL);
+            }} className="btn_download_resume">
+                
+                <strong>Download My Resume</strong>
+                    <div id="container-stars">
+                      <div id="stars"></div>
+                    </div>
+
+                    <div id="glow">
+                      <div class="circle"></div>
+                      <div class="circle"></div>
+                    </div>
+            </button>
             <div className="front-end-container">
             <motion.div
                         className="container_text_skills"
