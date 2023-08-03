@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHtml5, faCss3,faJs,faReact , faNodeJs,faPhp,faJava,faPython } from "@fortawesome/free-brands-svg-icons";
 import { useInView } from 'react-intersection-observer';
 import { motion } from "framer-motion";
-const PDF_FILE_URL = "https://mateus-martins.netlify.app/CVDevUpdated .pdf"
+const PDF_FILE_URL = "https://master--mateus-martins.netlify.app/CVDevUpdated.pdf"
 
 
 
