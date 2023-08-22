@@ -27,7 +27,7 @@ export let timelineData = [
         id:3,
         title:"I got noticed",
         education:"I'm in my second year in college and looking studying alone about infraesctructure",
-        description:"I was promoted to a Senior Development Analyst and my life became basically code rsrs \n In this role I manage a team for integrations and take care about the infraestructure of our operations",
+        description:"I was promoted to a Senior Development Analyst and my life became basically code rsrs \n In this role I manage a team for integrations and take care about the infraestructure of our operations\n and help my team doing front-end tasks in react.JS and react.TS and my back-end team doing some tasks in NestJS",
         year:"2023 january",
         icon:"work",
     },

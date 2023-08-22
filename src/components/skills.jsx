@@ -75,7 +75,7 @@ export default function Skills(){
                         transition={{ duration: 0.8 }}
 >
                     <p className="skills_text">
-                    In back-end , I have experience with node.js from my work and php I have done projects in college and projects alone also <br></br>
+                    In back-end , I have experience with node.js from my work and php I have done projects in college and projects alone also<br></br>
                     For java I've done some college projects and studied on my own <br></br>and in my beggining of my carreer I've done a tons of sql scripts to generate reports and fix our database structure in my work<br></br>
                     for python, I started to let my work with sql automated and I gained I lot of experience with python
                    </p>
