@@ -46,7 +46,7 @@ const Animation = useSpring({
       <div className="container_animation_welcome">
         <div className="container_texts_welcome" ref={refText} style={textAnimation}>
         <h1 className="welcome_texts">I'm Mateus Martins Fernandes</h1><br></br>
-        <h1 className="welcome_texts">A software Developer</h1>
+        <h1 className="welcome_texts">A Development Analyst and Product Manager</h1>
         </div>
         <div className="social_medias">
         <a
