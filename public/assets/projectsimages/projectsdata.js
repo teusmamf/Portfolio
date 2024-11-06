@@ -4,7 +4,7 @@ const  ProjectsData = [
     id:0,
     name:"Web Site for a parking lot network",
     description:"I used reactjs for the front-end and nodejs for my API to send emails",
-    link:"https://jmestacionamentos.com.br/",
+    link:"https://thunderous-elf-16b7c5.netlify.app/",
     photo:"project1.png"
 },
 {
@@ -27,6 +27,13 @@ const  ProjectsData = [
     description:"system that manage the load in a cargo aircraft",
     link:"https://github.com/teusmamf/trabalhoPOO2",
     photo:"project4.png"
+},
+{
+    id:4,
+    name:"Education platform aurafocus, still developing",
+    description:"System that will help autistic students study by mapping their  hyperfocus and adapting the activities to integrate their hyperfocus,username: matheus_diretor_2 password:Ma*26042004",
+    link:"http://3.142.144.30/",
+    photo:"aura.png"
 }
 ]
 
